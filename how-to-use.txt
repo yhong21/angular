@@ -24,3 +24,9 @@ sudo npm install -g @angular/cli
 Course Note
 -----------
 ng generate component componentname === ng g c componentname
+
+String interpolation {{data}}
+Property Binding [property]="data"
+Event Binding (event)="expression"
+
+Two Way Binding [(ngModel)]="data"

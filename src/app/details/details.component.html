@@ -1,0 +1,5 @@
+<button (click)="toggle()">Display Details</button>
+<p *ngIf="display">Any Content</p>
+<p *ngFor="let item of details"
+ [ngStyle]='{backgroundColor: item >= 5 ? "blue": "white"}'
+ [ngClass]='{white:item >= 5}'>{{item}}</p>
