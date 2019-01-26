@@ -1,3 +1,11 @@
+First Time Set up
+-----------------
+
+Install Node.js
+npm install
+npm install -g @angular/cli
+
+
 How to use
 ----------
 
@@ -30,3 +38,5 @@ Property Binding [property]="data"
 Event Binding (event)="expression"
 
 Two Way Binding [(ngModel)]="data"
+
+ng generate directive directivename === ng g d directivename
